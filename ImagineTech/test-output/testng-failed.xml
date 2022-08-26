@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ImagineTech]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.imgtech.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="BankingApp Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.imgtech.testCases.TC14_Burjeel_CareersOptionTest">
+        <methods>
+          <include name="CareersOption"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC14_Burjeel_CareersOptionTest -->
+      <class name="com.imgtech.testCases.TC4_Burjeel_SearchOptionTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="searchField"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC4_Burjeel_SearchOptionTest -->
+      <class name="com.imgtech.testCases.TC12_Burjeel_BlogsOptionTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="blogs"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC12_Burjeel_BlogsOptionTest -->
+      <class name="com.imgtech.testCases.TC8_Burjeel_AccreditationsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="accreditations"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC8_Burjeel_AccreditationsTest -->
+      <class name="com.imgtech.testCases.TC11_Burjeel_MediaOptionTest">
+        <methods>
+          <include name="media"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC11_Burjeel_MediaOptionTest -->
+      <class name="com.imgtech.testCases.TC2_Burjeel_SpecialitiesListTest">
+        <methods>
+          <include name="specialitiesList"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC2_Burjeel_SpecialitiesListTest -->
+      <class name="com.imgtech.testCases.TC1_Burjeel_DoctorsListTest">
+        <methods>
+          <include name="doctorList"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC1_Burjeel_DoctorsListTest -->
+      <class name="com.imgtech.testCases.TC7_Burjeel_PatientStoriesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="patientStoriesOption"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC7_Burjeel_PatientStoriesTest -->
+      <class name="com.imgtech.testCases.TC19_Burjeel_TwitterPage">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="instagramOption"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC19_Burjeel_TwitterPage -->
+      <class name="com.imgtech.testCases.TC18_Burjeel_LinkedinPage">
+        <methods>
+          <include name="linkedinOption"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC18_Burjeel_LinkedinPage -->
+      <class name="com.imgtech.testCases.TC16_Burjeel_FeedbackOptionTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="feedbackOption"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC16_Burjeel_FeedbackOptionTest -->
+      <class name="com.imgtech.testCases.TC15_Burjeel_COntactUSOptionTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="contactUSOption"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC15_Burjeel_COntactUSOptionTest -->
+      <class name="com.imgtech.testCases.TC17_Burjeel_FacebookPage">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="facebookPageOption"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC17_Burjeel_FacebookPage -->
+      <class name="com.imgtech.testCases.TC20_Burjeel_InstagramPage">
+        <methods>
+          <include name="twitterOption"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC20_Burjeel_InstagramPage -->
+      <class name="com.imgtech.testCases.TC6_Burjeel_AboutUsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="aboutUsOption"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC6_Burjeel_AboutUsTest -->
+      <class name="com.imgtech.testCases.TC10_Burjeel_InsurancePartnersOptionTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="InsurancePartners"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC10_Burjeel_InsurancePartnersOptionTest -->
+      <class name="com.imgtech.testCases.TC13_Burjeel_FAQOptionTest">
+        <methods>
+          <include name="FAQ"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC13_Burjeel_FAQOptionTest -->
+      <class name="com.imgtech.testCases.TC3_Burjeel_PatientPortalTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="patientPortal"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC3_Burjeel_PatientPortalTest -->
+      <class name="com.imgtech.testCases.TC9_Burjeel_AchievementsOptionTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="achievements"/>
+        </methods>
+      </class> <!-- com.imgtech.testCases.TC9_Burjeel_AchievementsOptionTest -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
+</suite> <!-- Failed suite [ImagineTech] -->

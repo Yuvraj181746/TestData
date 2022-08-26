@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ImagineTech">
+
+<listeners>
+<listener class-name="com.imgtech.utilities.Reporting"/>
+</listeners>
+<test name="BankingApp Test">
+	
+	
+	<parameter name="browser" value="firefox" />
+	
+	<classes>
+	<!-- <class name="com.imgtech.testCases.TC_LoginTest_001" />
+	<class name="com.imgtech.testCases.TC_AddCustomerTest_003" />-->
+	
+	<!---->
+	<class name="com.imgtech.testCases.TC1_Burjeel_DoctorsListTest" /> 
+	<class name="com.imgtech.testCases.TC2_Burjeel_SpecialitiesListTest" />
+	<class name="com.imgtech.testCases.TC3_Burjeel_PatientPortalTest" />
+	<class name="com.imgtech.testCases.TC4_Burjeel_SearchOptionTest" />
+	<class name="com.imgtech.testCases.TC6_Burjeel_AboutUsTest" />
+	<class name="com.imgtech.testCases.TC7_Burjeel_PatientStoriesTest" />
+	<class name="com.imgtech.testCases.TC8_Burjeel_AccreditationsTest" />
+	<class name="com.imgtech.testCases.TC9_Burjeel_AchievementsOptionTest" />
+	<class name="com.imgtech.testCases.TC10_Burjeel_InsurancePartnersOptionTest" />
+	<class name="com.imgtech.testCases.TC11_Burjeel_MediaOptionTest" />
+	<class name="com.imgtech.testCases.TC12_Burjeel_BlogsOptionTest" />
+	<class name="com.imgtech.testCases.TC13_Burjeel_FAQOptionTest" />		
+	<class name="com.imgtech.testCases.TC14_Burjeel_CareersOptionTest" /> 
+	<class name="com.imgtech.testCases.TC15_Burjeel_COntactUSOptionTest" />
+	<class name="com.imgtech.testCases.TC16_Burjeel_FeedbackOptionTest" />
+	<class name="com.imgtech.testCases.TC17_Burjeel_FacebookPage" />
+	<class name="com.imgtech.testCases.TC18_Burjeel_LinkedinPage" />
+	<class name="com.imgtech.testCases.TC19_Burjeel_TwitterPage" />
+	<class name="com.imgtech.testCases.TC20_Burjeel_InstagramPage" />
+	<class name="com.imgtech.testCases.TC21_Burjeel_YoutubeChannel" />
+	
+	 
+	</classes>
+
+
+</test>
+
+
+</suite>
